@@ -15,7 +15,7 @@ app.use(morgan('dev'));
 
 
 //Rutas del servidor
-app.use('/api', require('./routes/routes'));
+app.use('/', require('./routes/routes'));
 
 // Ejecución del servidor
 app.listen(port, () =>
