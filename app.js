@@ -5,7 +5,7 @@ const morgan = require('morgan');
 
 //Inicializo la libreria express
 const app = express();
-const port = 6500;
+const port = 6000;
 
 
 // Configuración de Middlewares
